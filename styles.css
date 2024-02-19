@@ -11,12 +11,23 @@ a {
   color: aliceblue;
 }
 
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  border-radius: 30px;
+
+  margin: 15px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   background-color: rgb(119, 198, 222);
   align-items: center;
-  padding: 10px;
+  padding: 15px;
 }
 
 .header-text {
@@ -29,4 +40,72 @@ a {
   flex-wrap: wrap;
   gap: 15px;
   list-style: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: azure;
+}
+
+.name {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.description,
+.info {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.education {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.location {
+  font-size: larger;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.years {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: blueviolet;
+}
+
+.job-description {
+  margin-top: 5px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 10px;
+}
+
+.languages {
+  padding: 0;
+}
+
+.footer {
+  padding: 15px;
+  background-color: #d0f5ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
