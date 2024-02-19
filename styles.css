@@ -6,11 +6,6 @@ body {
   flex-direction: column;
 }
 
-a {
-  text-decoration: none;
-  color: aliceblue;
-}
-
 ol,
 ul {
   list-style: none;
@@ -22,12 +17,18 @@ img {
   margin: 15px;
 }
 
+.hlink {
+  color: aliceblue;
+  text-decoration: none;
+
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   background-color: rgb(119, 198, 222);
   align-items: center;
-  padding: 15px;
+  padding: 10px 100px;
 }
 
 .header-text {
@@ -45,10 +46,11 @@ img {
 .content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-left: 30px;
   padding-right: 30px;
   background-color: azure;
+  flex: 1;
 }
 
 .name {
@@ -98,8 +100,23 @@ img {
   gap: 10px;
 }
 
-.languages {
+.sidebar-titles {
+  display: flex;
+  flex-direction: column;
   padding: 0;
+  gap: 10px;
+}
+
+.recommendations-and-awards {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  gap: 15px;
+}
+
+.rec-and-award-link {
+  color: black;
+  text-decoration: underline
 }
 
 .footer {
